@@ -75,4 +75,4 @@ for index, sequence in enumerate(test_sequences):
     else:
         print(sequence, genes_in_text["genes"], test_genes[index], sep="\n")
 
-print(count,"right identified sequences out of", len(test_sequences))
+print(count, "right identified sequences out of", len(test_sequences))
